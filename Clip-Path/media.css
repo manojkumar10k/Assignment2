@@ -1,0 +1,301 @@
+@media(max-width: 1118px)
+{
+  .container
+{
+  height: 100vh;
+ 
+  background-size: cover;
+}
+  nav img{
+      left: 8%;
+      width: 110px;
+      top: 20px;
+  }
+  nav ul li a
+      {
+          font-size: 15px;
+          padding: 10px 0;
+          text-transform: uppercase;
+      }
+  
+}
+@media(max-width: 944px)
+{
+  nav img{
+      left: 6%;
+      top: 20px;
+      width: 110px;
+  }
+  nav ul li a{
+      font-size: 15px;
+  }
+  .text h5
+  {    margin-top: 30px;
+      font-size: 20px;
+  }
+  .text h1
+  {
+      font-size: 52px; 
+  }
+
+
+
+}
+@media(max-width: 860px)
+{
+  label #btn{
+      display: block;
+  }
+  ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+
+  }
+  nav ul li{
+      display: block;
+      margin: 50px 0;
+      line-height: 30px;
+  }
+  nav ul li a{
+      font-size: 20px;
+  }
+  #check:checked ~ ul{
+    left: 0;
+  }
+ #check:checked ~ label #btn{
+  display: none;
+  cursor: pointer;
+ }
+ #check:checked ~ label #cancel{
+  display: block;
+  cursor: pointer;
+ }
+ .text h5
+{   
+  margin-top: 35px;
+  font-size: 10px;
+}
+.text h1
+{
+  text-align: center;
+  padding-top:3px;
+  letter-spacing: 3px;
+  font-size: 22px; 
+}
+.dt
+{
+margin-left: -20px;
+width: 40px;
+  height: 40px;
+}
+.dt i
+{
+ margin-top: 20px;
+ margin-left: 3px;
+}
+.gallery
+{ 
+    align-items: center;
+ flex-direction: column;
+}
+
+}
+
+@media(max-width: 768px)
+{
+  .container
+{
+  height: 45vh;
+  width: 100%;
+  background-size: cover;
+}
+
+
+  .text h5
+{
+  font-size: 10px;
+  margin-top: 1px;
+}
+.text h1
+{
+  
+  margin-right: 15px;
+  padding-top:3px;
+  font-size: 25px; 
+}
+.next1 i
+{
+ margin-left: 10px;
+}
+.next2 i
+{
+ margin-right: 10px;
+}
+.circle1
+{
+ width: 50px;
+ margin-top: -18px;
+}
+.circle i
+{
+  margin-top: -15px;
+}
+.circle2
+{
+ width: 50px;
+ margin-top: -18px;
+}
+p{
+  text-align: center;
+  font-size: 9px;
+  padding-top:0px;
+ 
+}
+.bt1
+{
+  padding-top: 5px;
+}
+.bt2 
+{
+  display: flex;
+  margin-left: 10px;
+}
+button
+{
+  margin: 5px;
+  height: 13px;
+  width: 60px;
+ font-size: 5px;
+
+}
+.dt
+{
+margin-bottom: 320px;
+margin-left: -20px;
+width: 40px;
+  height: 40px;
+}
+.dt i
+{
+ margin-top: 20px;
+ margin-left: 3px;
+}
+.gallery
+{
+     align-items: center;
+ flex-direction: column;
+
+}
+}
+
+
+@media(max-width: 320px)
+{
+
+  nav img{
+          width: 90px;
+          position: absolute;
+           top:19px;
+           left: 12%;
+       }
+
+  .text h1
+{
+  text-align: center;
+  padding-top: 7px;
+  font-size: 17px; 
+}
+.text h5
+{
+  font-size: 7px;
+  margin-top: 0px;
+}
+.container
+{
+  height: 45vh;
+  width: 100%;
+  background-size: cover;
+}
+nav ul li a
+{   
+font-size: 10px;
+}
+nav ul li{
+display: block;
+margin: 10px 0;
+line-height: 10px;
+  }
+  .next1 i
+{
+ margin-left: 10px;
+}
+.next2 i
+{
+ margin-right: 10px;
+}
+.circle1
+{
+ width: 50px;
+ margin-top: -18px;
+}
+.circle i
+{
+  margin-top: -15px;
+}
+.circle2
+{
+ width: 50px;
+ margin-top: -18px;
+}
+p{
+  text-align: center;
+  font-size: 5px;
+  padding-top:1px;
+}
+.bt1
+{
+  padding-top: 5px;
+}
+.bt2 
+{
+  display: flex;
+  margin-left: 10px;
+}
+button
+{
+  margin: 5px;
+  height: 10px;
+  width: 50px;
+ font-size: 5px;
+}
+.cantant
+{
+ height: 100vh;
+ width: 100%;
+ background-color: white;
+}
+.dt
+{
+margin-bottom: 320px;
+margin-left: -20px;
+width: 40px;
+  height: 40px;
+}
+.dt i
+{
+ margin-top: 20px;
+ margin-left: 3px;
+}
+.gallery
+{ 
+    align-items: center;
+ flex-direction: column;
+
+}
+
+}

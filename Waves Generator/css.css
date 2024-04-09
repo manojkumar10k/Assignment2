@@ -1,0 +1,267 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container
+{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgb(0,0,0,0.7), rgb(0,0,0,0.7)), url(image/Background\ image.png);
+    background-position: center;
+    background-size: cover;
+}
+h1
+{
+    color: white;
+    text-align: center;
+    padding-top: 160px;
+
+
+}
+h3
+{   
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+    
+}
+ .ln
+ {    
+    align-items: center;
+    display: flex;
+    margin-top: 20px;
+ }
+ .ln1
+ {
+    height: 1px;
+    width: 80px;
+    background-color: chartreuse;
+    border: 1px solid white;
+    margin-left: 650px;
+
+ }
+ i{
+    margin-left: 20px;
+    position: relative;
+ }
+ .ln2
+ {
+    height: 1px;
+    width: 80px;
+    background-color: chartreuse;
+    border: 1px solid white;
+    margin-left: 20px;
+ }
+
+
+.wavy
+{  
+    padding-top: 140px; 
+
+}
+
+.box1
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(image/Ellipse\ 1.png);
+    background-position: center;
+    background-size: cover;
+    background-color: aqua;
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 300px;
+    margin-top: 190px;
+    z-index: 1px;
+    border: 2px solid red;
+}
+.box1:hover
+{
+    transition:.5s;
+    width: 65px;
+    height: 65px;
+    box-shadow: 0px 0px 25px 0px greenyellow;
+}
+.item 
+{
+    color: chartreuse;
+    display: none;
+    margin-top: 0px;
+    
+}
+
+.item h3{
+    color: rgb(234, 19, 19);
+    font-size: 25px;
+    
+}
+ p
+ {
+    margin-top: 10px;
+ }
+
+.box1:hover>.line
+{
+    height: 60px;
+    width: 1px;
+    background-color:#45576e;
+    border: 1px solid #ffffff;
+    margin-top: 65px;
+    margin-left: 28px;
+    
+    
+}
+.box1:hover>.item
+{    
+     display: block;
+    color:white;
+}
+
+.box2
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(image/Ellipse\ 2.png);
+    background-position: center;
+    background-size: cover;
+    background-color: blue;
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 100px;
+    margin-top: 200px;
+    z-index: 1px;
+    border: 2px solid red;
+}
+.box2:hover
+{
+    transition:.5s;
+    width: 65px;
+    height: 65px;
+    box-shadow: 0px 0px 25px 0px greenyellow;
+}
+.box2:hover>.item
+{    
+     display: block;
+    color:white;
+}
+.box2:hover>.line
+{
+    height: 60px;
+    width: 1px;
+    background-color:#45576e;
+    border: 1px solid #ffffff;
+    margin-top: 65px;
+    margin-left: 28px;
+    
+}
+.box3
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(image/Ellipse\ 3.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 600px;
+    z-index: 1px;
+    margin-top: 265px;
+    border: 2px solid red;
+}
+.box3:hover
+{
+    transition:.5s;
+    width: 65px;
+    height: 65px;
+    box-shadow: 0px 0px 25px 0px greenyellow;
+}
+.box3:hover>.item
+{    
+     display: block;
+    color:white;
+}
+.box3:hover>.line3
+{
+    height: 40px;
+    width: 1px;
+    background-color:#45576e;
+    border: 1px solid #ffffff;
+    margin-top: 62px;
+    margin-left: 28px;
+    
+}
+.box4
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(image/Ellipse\ 4.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 900px;
+    z-index: 1px;
+    margin-top: 195px;
+    border: 2px solid red;
+
+}
+.box4:hover
+{
+    transition:.5s;
+    width: 65px;
+    height: 65px;
+    box-shadow: 0px 0px 25px 0px greenyellow;
+}
+.box4:hover>.item
+{    
+     display: block;
+    color:white;
+}
+.box4:hover>.line
+{
+    height: 60px;
+    width: 1px;
+    background-color:#45576e;
+    border: 1px solid #ffffff;
+    margin-top: 65px;
+    margin-left: 28px;
+    
+}
+
+.box5
+{
+    width: 50px;
+    height: 50px;
+    background-image: url(image/Ellipse\ 5.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    border-radius: 50px;
+    margin-left: 1200px;
+    z-index: 1px;
+    margin-top: 200px;
+    border: 2px solid red;
+}
+.box5:hover
+{
+    transition:.5s;
+    width: 65px;
+    height: 65px;
+    box-shadow: 0px 0px 25px 0px greenyellow;
+}
+.box5:hover>.item
+{    
+     display: block;
+    color:white;
+}
+.box5:hover>.line
+{
+    height: 60px;
+    width: 1px;
+    background-color:#45576e;
+    border: 1px solid #ffffff;
+    margin-top: 65px;
+    margin-left: 28px;
+    
+}

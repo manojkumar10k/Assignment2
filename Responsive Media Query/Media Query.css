@@ -1,0 +1,596 @@
+
+    @media (max-width:500px) {
+
+      .login-info,
+      #search-bar {
+        display: none;
+      }
+
+      .icons {
+        display: none;
+      }
+
+      .ellipse {
+        width: 100%;
+      }
+
+      .layout {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .card-layout {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+        grid-template-rows: repeat(6, auto);
+        gap: 20px;
+        margin: auto;
+      }
+
+      .card {
+        height: 200px;
+        width: 250px;
+        row-gap: 10px;
+        display: flex;
+        justify-content: start;
+        align-items: start;
+        margin-left: 0;
+
+      }
+
+      .content {
+        margin-top: 20px;
+        width: 100%;
+      }
+
+      .content h2 {
+        font-size: 25px;
+        line-height: 40px;
+      }
+
+      .content p {
+        font-size: 18px;
+        line-height: 25px;
+      }
+
+      .layout h1 {
+        font-size: 25px;
+        text-align: center;
+        margin: auto;
+        margin-left: 80px;
+      }
+
+      .ads {
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        border-radius: 0;
+      }
+
+      .ad p {
+        width: 1000%;
+        font-size: 18px;
+        text-align: center;
+        padding: 0 10px;
+
+      }
+
+      .ad1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+      }
+
+      .ad img {
+        height: 35px;
+        width: 150px;
+        border: none;
+        border-radius: 0;
+
+      }
+
+      .stack3 {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .stack1,
+      .stack2 {
+        height: 500px;
+      }
+
+      .stack3 .stack2 {
+        width: 100%;
+        font-size: 10px;
+
+      }
+
+      .grid-text {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        text-align: center;
+      }
+
+      .stack3 .stack1 {
+        height: 40%;
+        margin-top: 40px;
+
+      }
+
+      .stack3 .stack1 img {
+        height: 300px;
+        width: 350px;
+      }
+
+      .grid-text h3 {
+        text-transform: capitalize;
+        font-size: 18px;
+        color: var(--black);
+      }
+
+      .page3 {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        row-gap: 20px;
+        width: 70%;
+        text-align: center;
+        color: var(--black);
+      }
+
+      .watermark {
+        padding: 15px;
+      }
+
+      .div .icons {
+        width: 28%;
+        margin-top: 5px;
+      }
+
+      .graph {
+        height: 300px;
+      }
+
+      .stack {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        
+      }
+
+      .stack .stack1 img {
+        margin-top: 40px;
+        width: 350px;
+      }
+
+      .stack .stack1 {
+        height: 60%;
+      }
+
+      .stack .stack2 {
+        margin-top: 35px;
+        row-gap: 30px;
+      }
+
+      .stack .stack2 .grid {
+        width: 400px;
+        height: 90px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      
+      }
+
+      .page3 h3 {
+        font-size: 30px;
+      }
+
+      .profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 60px;
+      }
+
+      .card p,
+      .card h3 {
+        font-size: 15px;
+      }
+
+      .card img {
+        height: 45px;
+      }
+      .search-bar {
+        display: none;
+      }
+
+      .logo p {
+        font-size: 15px;
+      }
+
+      .logo {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        row-gap: 35px;
+      }
+
+      .box {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+      }
+
+      .footer {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .contact-info {
+        height: 40px;
+        overflow: hidden;
+        transition: all 0.9s linear;
+      }
+
+      .contact-info:hover {
+        height: 250px;
+
+
+      }
+
+    }
+  
+
+    @media (min-width:500px)and (max-width:1000px) {
+
+        .login-info,
+        #search-bar {
+          display: none;
+        }
+  
+        header {
+          display: flex;
+          justify-content: space-between;
+          width: 80%;
+          margin: auto;
+          align-items: center;
+          margin-top: 60px;
+        }
+  
+  
+        .layout {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        .card-layout {
+          display: grid;
+          grid-template-columns: repeat(2, auto);
+          grid-template-rows: repeat(3, auto);
+          margin: auto;
+          gap: 20px;
+        }
+  
+        .card {
+          height: 200px;
+          width: 250px;
+          row-gap: 10px;
+  
+  
+        }
+  
+        .content {
+          margin-top: 20px;
+          width: 70%;
+        }
+  
+        .content h2 {
+          font-size: 35px;
+          line-height: 40px;
+        }
+  
+        .layout p {
+          font-size: 20px;
+        }
+  
+        .ad img {
+          height: 40px;
+          border: none;
+          border-radius: 5px;
+        }
+  
+        .stack3 {
+          display: flex;
+          flex-direction: column;
+        }
+  
+        .stack1,
+        .stack2 {
+          height: 500px;
+        }
+  
+        .stack3 .stack2 {
+          width: 100%;
+  
+        }
+  
+        .grid-text {
+          justify-content: center;
+          align-items: center;
+          display: flex;
+          text-align: center;
+        }
+  
+        .stack3 .stack1 {
+          height: 40%;
+          margin-top: 40px;
+        }
+  
+        .stack3 .stack1 img {
+          height: 300px;
+          width: 400px;
+        }
+  
+        .grid-text h3 {
+          text-transform: capitalize;
+          font-size: 35px;
+          color: var(--black);
+        }
+  
+        .page3 {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          row-gap: 20px;
+          width: 70%;
+          text-align: center;
+          color: var(--black);
+        }
+  
+        .watermark {
+          padding: 15px;
+        }
+  
+        .div .icons {
+          width: 28%;
+          margin-top: 5px;
+        }
+  
+        .graph {
+          height: 400px;
+        }
+  
+        .stack {
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          
+        }
+  
+        .stack .stack1 img {
+          margin-top: 40px;
+          width: 400px;
+        }
+  
+        .stack .stack1 {
+          height: 60%;
+        }
+  
+        .stack .stack2 {
+          margin-top: 35px;
+          row-gap: 30px;
+        }
+  
+        .stack .stack2 .grid {
+          width: 500px;
+          height: 100px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          
+        }
+  
+        .layout h1 {
+          font-size: 40px;
+        }
+  
+        .page3 h3 {
+          font-size: 30px;
+        }
+  
+        .profile {
+          flex-direction: column;
+        }
+  
+        .card p,
+        .card h3 {
+          font-size: 15px;
+        }
+  
+        .card img {
+          height: 45px;
+        }
+  
+  
+      }
+  
+
+    @media (min-width:1000px) and (max-width:1200px) {
+      
+
+
+        .layout {
+          width: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+  
+        .card-layout {
+          display: grid;
+          grid-template-columns: repeat(3, auto);
+          grid-template-rows: repeat(2, auto);
+  
+        }
+  
+        .card {
+          height: 200px;
+          width: 250px;
+        }
+  
+        .content {
+          width: 70%;
+        }
+  
+        .content h2 {
+          font-size: 35px;
+          line-height: 40px;
+        }
+  
+        .ad img {
+          height: 50px;
+          border: none;
+          border-radius: 5px;
+        }
+  
+        .stack3 .stack1 {
+          width: 55%;
+        }
+  
+        .stachk3 .stack2 {
+          width: 45%;
+        }
+  
+        .stack3 .stack1 img {
+          height: 350px;
+          width: 450px;
+        }
+  
+        .grid-text h3 {
+          text-transform: capitalize;
+          font-size: 20px;
+          color: var(--black);
+        }
+  
+        .page3 {
+          margin-top: 40px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          row-gap: 20px;
+          width: 70%;
+          text-align: center;
+          color: var(--black);
+        }
+  
+        .watermark {
+          padding: 15px;
+        }
+  
+        .div .icons {
+          width: 28%;
+          margin-top: 5px;
+        }
+  
+        .graph {
+          height: 550px;
+        }
+  
+        .stack .stack1 img {
+          width: 450px;
+        }
+  
+        .stack .stack2 .grid {
+          width: 400px;
+        }
+  
+  
+      }
+
+    @media (min-width:1200px) and (max-width:1350px) {
+
+        .card {
+          height: 200px;
+          width: 320px;
+          row-gap: 15px;
+        }
+  
+        .content h2 {
+          font-size: 50px;
+        }
+  
+        .card h3 {
+          text-transform: capitalize;
+          font-family: 400;
+        }
+      }
+
+    @media (max-width:858px) {
+        .checkbtn {
+            display: block;
+        }
+    
+       nav ul {
+            position: fixed;
+            width: 60%;
+            height: 60%;
+            background-color: #92a1b0;
+            top: 80px;
+            left: 100%;
+            transition: all .5s;
+    
+        }
+    
+        nav ul li {
+            display: block;
+            margin: 30px;
+            line-height: 30px;
+    
+        }
+    
+        nav ul li a {
+            font-size: 20px;
+    
+        }
+    
+        a:hover,
+        a.active {
+            background: none;
+            color: #0017e6;
+        }
+    
+        #check:checked~ul {
+            left: 0;
+        }
+    
+    }
+    
+    
+
+    @media (max-width:952px) {
+        nav ul li a {
+            font-size: 16px;
+    
+        }
+    
+    }
